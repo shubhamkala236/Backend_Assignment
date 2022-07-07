@@ -137,6 +137,50 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "checkuser ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/users/checkuser/62c683b8e0ca54e63999b2c4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users",
+						"checkuser",
+						"62c683b8e0ca54e63999b2c4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkAuthentication",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/users/checkauthentication/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users",
+						"checkauthentication",
+						""
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
